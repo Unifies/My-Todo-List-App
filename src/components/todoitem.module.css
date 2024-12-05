@@ -1,0 +1,31 @@
+.todolister {
+  background-color: var(--BGColor2);
+  border-radius: 8px;
+  box-shadow: var(--shadow2);
+  width: 90%;
+  margin: var(--space2) auto;
+  padding: var(--space1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoitems {
+  font-weight: bold;
+  font-size: var(--fs-12);
+}
+
+.deleteButton {
+  padding: var(--space2) var(--space1);
+  border: none;
+  background-color: var(--BGColor);
+  color: var(--BGColor2);
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: var(--space1);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: var(--completedColor);
+}

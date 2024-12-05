@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--BGColor);
+  color: var(--BGColor2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space3);
+  font-weight: bold;
+  padding: var(--space1);
+  font-size: var(--space1);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: var(--space1);
+  }
+}
